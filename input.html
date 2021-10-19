@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./assets/style.css">
+        <link rel="shortcut icon" href="./Poké_Ball-RS.png" type="image/x-icon">
+        <title>POKEDEX</title>
+    </head>
+    <body>
+        <div class="create-container">
+            <img src="./2560px-International_Pokémon_logo.svg.png" alt="" class="logo">
+            <input type="text" class="pokemon-name" required placeholder="Nom du pokémon">
+            
+            <div class="types-container">
+                <label for="types">Selectionnez le type de votre pokémon</label>
+                <input list="types-list" type="text" class="types">
+                <!-- <button class="add-type secondary">Ajouter un 2ème type</button>
+                <button class="remove-type secondary none">Retirer le 2ème type</button> -->
+            </div>
+            <datalist id="types-list">
+                <option value="Acier">
+                <option value="Combat">
+                <option value="Dragon">
+                <option value="Eau">
+                <option value="Electrik">
+                <option value="Fée">
+                <option value="Feu">
+                <option value="Glace">
+                <option value="Insecte">
+                <option value="Normal">
+                <option value="Plante">
+                <option value="Poison">
+                <option value="Psy">
+                <option value="Roche">
+                <option value="Sol">
+                <option value="Spectre">
+                <option value="Ténèbres">
+                <option value="Vol">
+            </datalist>
+
+            <label for="img_url">Image du pokémon</label>
+            <input type="text" class="img_url" id="img_url">
+            
+            <button class="valid">Valider ce pokémon</button>            
+            <h3 class="result"></h3>
+        </div>
+
+        <div class="pokedex-container">
+            
+        </div>
+    <script src="./assets/script.js"></script>
+    </body>
+</html>

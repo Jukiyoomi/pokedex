@@ -1,0 +1,7 @@
+page 1 : 
+	entrer les données des nouveaux pokemons
+	parser les données en .json
+page 2 : 
+	lister les pokemons déjà entrés à travers .json
+	possible de supprimer les pokémons entrés
+	afficher un pokemon dans une couleur spécifique
